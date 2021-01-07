@@ -1,8 +1,17 @@
+body {
+    background-color: lightseagreen;
+}
+
 .contentContainer {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;
     flex-direction:  column;
-    justify-content: space-between;
+    justify-content: space-between; */
+    flex: 2;
+    
+    
+    /* flex: 1 1 auto;
+    flex-flow: column wrap; */
    
 }
 div {
@@ -10,27 +19,33 @@ div {
 }
 .contentArticle {
     background-color: lightseagreen;
+    flex-wrap: wrap;
 }
 .contaninerLeft {
-    width: 25%;
+    display: flex;
+    flex: 2;
+    border: 2px solid yellow;
+    
+    /* width: 60%; */
 }
 .containerRight {
-    width: 75%;
+    
+    border: 2px solid black;
+    /* width: 40%; */
+    flex: 1;
 }
 .tipCard{
-    flex: 25%;
+    flex: 40%;
 }
-aside{
-    grid-column: 1/2;
-    grid-row: 2/3;
-    background-color: #96D1C7;
-}
+
 .fishCard {
     border: 2px dotted black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-basis: 48%;
+    flex-basis: 20%;
+    
+    
 }
 .fishCard__name{
     font-weight: bold;
@@ -60,8 +75,8 @@ nav {
     padding: 0;
 }
 article {
-    grid-column: 2/3;
-    grid-row: 2/3;
+    /* grid-column: 2/3;
+    grid-row: 2/3; */
     background-color: #FC7978;
 }
 ul {
@@ -73,13 +88,15 @@ ul {
     
     
 }
-.containerRight {
+/* .containerRight {
+    display: flex;
     align-self: flex-start;
 
-}
+} */
 img {
-    width: 25%;
+    width: 60%;
 }
+
 /* li {
     float: none;
 }
@@ -96,6 +113,8 @@ li a {
     
     
 } */
-.locationCard {
+/* .locationCard {
     display: flex;
-}
+    flex: 1 1 0;
+
+} */
