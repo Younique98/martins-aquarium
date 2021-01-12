@@ -9,3 +9,6 @@ const fishCollection = [
     image: "",
 }
 ]
+export const useFish = () => {
+    return fishCollection.slice()
+}
