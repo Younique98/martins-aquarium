@@ -1,0 +1,11 @@
+.containerLeft {
+    float: left;
+    width: 60%;
+    padding: 0 10px;
+}
+.row {margin: 0 -5px;}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

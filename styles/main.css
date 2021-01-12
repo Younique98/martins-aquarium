@@ -1,69 +1,39 @@
-.contentContainer {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction:  column;
-    justify-content: space-between;
-   
-}
-div {
-    display: block;
-}
-.contentArticle {
+@import "./containerLeft.css";
+@import "./containerRight.css";
+@import "./fishcard.css";
+@import "./footer.css";
+@import "./header.css";
+@import "./nav.css";
+@import "./tipCard.css";
+
+
+
+body {
     background-color: lightseagreen;
 }
-.contaninerLeft {
-    width: 25%;
-}
-.containerRight {
-    width: 75%;
-}
-.tipCard{
-    flex: 25%;
-}
-aside{
-    grid-column: 1/2;
-    grid-row: 2/3;
-    background-color: #96D1C7;
-}
-.fishCard {
-    border: 2px dotted black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-basis: 48%;
-}
-.fishCard__name{
+h1 {
+    display: block;
+    font-size: 1em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     font-weight: bold;
 }
-footer {
-    grid-column: 1/3;
-    grid-row: 3/4;
-    background-color: #96D1C7;
+.contentContainer {
     display: flex;
-}
-header {
-    grid-column: 1/3;
-    grid-row: 3/4;
-    background-color: #98cac2; 
-    padding: 60px;
-    text-align: center;
-    font-size: 30px;
-    display: flex;
-    
-}
-nav {
-    
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    justify-content: space-between; 
+   
+    } 
+
+.contentArticle {
+    background-color: lightseagreen;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
 }
-article {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    background-color: #FC7978;
-}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -73,29 +43,26 @@ ul {
     
     
 }
-.containerRight {
-    align-self: flex-start;
 
-}
 img {
-    width: 25%;
+    width: 60%;
 }
-/* li {
-    float: none;
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
 }
-li a {
-    display: block;
-    
-    padding: 14px 16px;
-    text-decoration: none;
-    text-align: center;
-    
-} */
-/* .containerLeft__fishList {
-    display: flex;
-    
-    
-} */
-.locationCard {
-    display: flex;
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
 }
