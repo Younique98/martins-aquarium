@@ -17,7 +17,7 @@
     background-color: #f1f1f1;
 }
 @media screen and (max-width: 600px) {
-    .colum {
+    .column {
         width: 100%;
         display: block;
         margins-bottom: 20px;
