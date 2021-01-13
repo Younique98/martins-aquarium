@@ -23,3 +23,16 @@
         margin-bottom: 20px;
     }
 }
+
+.fish__image {
+    display: flex;
+    border: 2px dotted black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    text-align: center;
+    background-color: #5eccb1;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
