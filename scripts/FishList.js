@@ -21,6 +21,7 @@ export const FishList = () => {
             Each time, add the return value to the
             fishHTMLRepresentations variable with `+=`
         */
+       fishHTMLRepresentations += Fish(fish) 
     }
 
     // Add a section, and all of the fish to the DOM

@@ -1,0 +1,31 @@
+/* containerLeft__fishList contentArticle */
+
+
+.containerLeft__fishList contentArticle {
+    /* border: 2px dotted black; */
+    display: flex;
+    /* flex-direction: row;
+    align-items: center;
+    flex-basis: 30%;
+    flex-wrap: wrap; */
+    /* justify-content: space-between;
+    align-content: center; */
+    
+    
+    
+}
+
+.containerLeft__fishList contentArticle {
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* padding: 16px; */
+    text-align: center;
+    background-color: #5eccb1;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
