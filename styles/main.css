@@ -6,7 +6,8 @@
 @import "./nav.css";
 @import "./tipCard.css";
 @import "./columnCard.css";
-
+@import "./fish__card.css";
+@import "./fishList.css";
 
 
 body {
@@ -25,14 +26,16 @@ h1 {
     display: flex;
     /* flex-wrap: wrap; */
     /* flex-direction: column; */
-    justify-content: space-between; 
+    /* justify-content: space-between; */
+    height: auto; 
    
     } 
 
-.contentArticle {
-    background-color: lightseagreen;
-    flex-wrap: wrap;
+icle {
+    /* background-color: lightseagreen;
+    flex-wrap: wrap; */
     display: flex;
+  
 }
 
 ul {
