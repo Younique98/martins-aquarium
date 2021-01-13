@@ -2,11 +2,10 @@ const fishCollection = [
     {
     name: "Bart",
     food: "crustaceans",
-    species: "",
-    location: "",
-    length: "",
-    diet: "",
-    image: "",
+    species: "Bettas",
+    location: "Thailand",
+    length: "2.8 in."
+ 
 }
 ]
 export const useFish = () => {
