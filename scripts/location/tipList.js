@@ -1,5 +1,5 @@
-import { useTip } from "./TipDataProvider.js"
-import { Tip} from "./tips.js"
+import { useTip } from "../tip/TipDataProvider.js"
+import { Tip} from "../tip/tips.js"
 /**
  * TipList which renders individual tip objects as HTML
  */

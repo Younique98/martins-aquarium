@@ -4,7 +4,7 @@ const fishCollection = [
     food: "Food: crustaceans",
     species: "Species: Bettas",
     location: "Location: Thailand",
-    length: "Length: 2.8 in.",
+    length: 5,
     image: "https://cdn.pixabay.com/photo/2014/06/23/06/00/longhorn-cowfish-375110__340.jpg"
  
     },
@@ -13,7 +13,7 @@ const fishCollection = [
         food: "Food: crustaceans",
         species: "Species: Anthias Squamipinnis",
         location: "Location: Somewhere Land",
-        length: "Length: 2.1 in.",
+        length: 2.1,
         image: "https://cdn.pixabay.com/photo/2020/10/12/22/12/color-pop-5650322__340.jpg"
      
         },
@@ -31,7 +31,7 @@ const fishCollection = [
                 food: "Food: Pebbles",
                 species: "Species: Goldfish",
                 location: "Location: In Space",
-                length: "Length: 3 in.",
+                length: 3,
                 image: "https://cdn.pixabay.com/photo/2019/10/12/04/59/koi-4543131__340.jpg"
              
                 }
@@ -39,4 +39,43 @@ const fishCollection = [
 ]
 export const useFish = () => {
     return fishCollection.slice()
+}
+
+
+export const mostHolyFish = () => {
+    const holyFish =[]
+
+    for (const fishObject of fishCollection) {
+        if (fishObject.length % 3 === 0) {
+            console.log(fishObject)
+            holyFish.push(fishObject)
+        }
+    }
+return holyFish
+}
+// console.log("array of holy fish",holyFish)
+
+export const soldierFish = () => {
+    const soldiers =[]
+
+    for (const fishObject of fishCollection) {
+        if (fishObject.length % 5 === 0) {
+            console.log(fishObject)
+            soldiers.push(fishObject)
+        }
+    }
+return soldiers
+}
+
+export const nonHolyFish = () => {
+    const nonregular =[]
+
+    for (const fishObject of fishCollection) {
+        if (fishObject.length % 5 !== 0 && fishObject.length % 3 !== 0) {
+            nonregular.push(fishObject)
+        }
+      }  
+      
+   console.log("array of regular fish", nonregular) 
+return nonregular
 }
